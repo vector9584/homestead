@@ -1,0 +1,14 @@
+# 权限与密钥（绝对不能提交）
+.acl/session.key
+.acl/perm.json
+.acl/users.htpasswd
+.acl/api.json
+*.secret
+.env
+.env.*
+
+# 运行产物
+*.log
+*.pid
+.deploy-*
+tmp/
